@@ -1,0 +1,38 @@
+[{
+  "gender_distribution": [
+    {
+      "_id": "F",
+      "count": 8843
+    },
+    {
+      "_id": "KF",
+      "count": 390
+    },
+    {
+      "_id": "KM",
+      "count": 429
+    },
+    {
+      "_id": "M",
+      "count": 11619
+    }
+  ],
+  "race_gender_distribution": [
+    {
+      "_id": "asian",
+      "F": 8800,
+      "M": 11513,
+      "KF": 390,
+      "KM": 429,
+      "total": 21132
+    },
+    {
+      "_id": "not_asian",
+      "F": 43,
+      "M": 106,
+      "KF": 0,
+      "KM": 0,
+      "total": 149
+    }
+  ]
+}]

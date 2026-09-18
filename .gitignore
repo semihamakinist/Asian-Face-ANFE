@@ -1,0 +1,16 @@
+# Python önbellekleri
+__pycache__/
+*.pyc
+
+# İndirilen ham görseller (Telif riski önleme)
+dataset/
+images/
+*.jpg
+*.jpeg
+*.png
+
+# IDE ve ortam dosyaları
+.idea/
+.vscode/
+venv/
+.env
