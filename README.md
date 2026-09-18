@@ -105,38 +105,38 @@ pie title MyDramaList Onaylı Profillerin Cinsiyet Dağılımı (Toplam: 75,965)
 #### 📌 En Yüksek Temsile Sahip İlk 10 Ülke / Milliyet Dağılımı
 
 ```mermaid
+
 %%{init: {
     "theme": "base",
     "themeVariables": {
-        "titleColor": "#f8fafc",
-        "sectionBkgColor": "#1e293b",
-        "altSectionBkgColor": "#0f172a",
-        "gridColor": "#334155",
-        "lineColor": "#64748b",
         "fontSize": "13px",
+        "gridColor": "#cbd5e1",
+        "lineColor": "#94a3b8",
 
-        "activeTaskColor": "#93c5fd",
-        "activeTaskBorderColor": "#60a5fa",
-        "taskTextOutsideColor": "#f8fafc",
+        "sectionBkgColor": "rgba(241, 245, 249, 0.6)",
+        "altSectionBkgColor": "rgba(255, 255, 255, 0.6)",
 
-        "doneTaskColor": "#c4b5fd",
-        "doneTaskBorderColor": "#a78bfa",
+        "activeTaskColor": "#bfdbfe",
+        "activeTaskBorderColor": "#3b82f6",
+
+        "doneTaskColor": "#ddd6fe",
+        "doneTaskBorderColor": "#8b5cf6",
         "doneTaskTextColor": "#0f172a",
 
         "critBkgColor": "#fbcfe8",
-        "critBorderColor": "#f472b6",
+        "critBorderColor": "#ec4899",
         "critTextColor": "#0f172a",
 
-        "taskColor": "#bae6fd",
-        "taskBorderColor": "#38bdf8",
+        "taskColor": "#fed7aa",
+        "taskBorderColor": "#f97316",
         "taskTextColor": "#0f172a"
-    }
+    },
+    "themeCSS": ".titleText { fill: var(--color-fg-default, #0f172a) !important; font-weight: 700; }.sectionTitle { fill: var(--color-fg-default, #0f172a) !important; font-weight: 600; }.taskText, .taskTextDone, .taskTextCrit { fill: #0f172a !important; font-weight: 600; }.taskTextOutside, .taskTextOutsideRight { fill: var(--color-fg-default, #0f172a) !important; font-weight: 600; }.tick text { fill: var(--color-fg-default, #475569) !important; font-size: 11px; }"
 }}%%
 gantt
     title En Çok Görülen 7 Milliyet (Doğrulanmış Profiller)
     dateFormat X
-    axisFormat %d
-    tickInterval 5000
+    axisFormat %s
 
     section Japanese
     21,622 (28.5%) : active, 0, 21622
